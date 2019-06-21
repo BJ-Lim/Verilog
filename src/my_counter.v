@@ -1,3 +1,20 @@
+
+/*
+	Board model is EP4CE22F17C6N
+	Pins are set as follow.
+	
+	CLOCK_50				clock_pin(R8)
+	counter_out[7]		led_pin(L3)
+	counter_out[6]		led_pin(B1)
+	counter_out[5]		led_pin(F3)
+	counter_out[4]		led_pin(D1)
+	counter_out[3]		led_pin(A11)
+	counter_out[2]		led_pin(B13)
+	counter_out[1]		led_pin(A13)
+	counter_out[0]		led_pin(A15)
+	reset					button(E1)
+*/
+
 module my_counter(
 	input reset,
 	input CLOCK_50,
